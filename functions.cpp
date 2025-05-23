@@ -25,7 +25,7 @@ int32_t InputStruct(String_number string[])
 
             if (spacePos != NULL) 
             {
-                *spacePos = '0';
+                *spacePos = ' ';
                 strcpy(word, input);
                 number = atoi(spacePos + 1);
                 strcpy(string[i].string, input);
